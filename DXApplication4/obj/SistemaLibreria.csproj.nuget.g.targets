@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+  </PropertyGroup>
+  <ImportGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <Import Project="$(NuGetPackageRoot)microsoft.packaging.tools\1.0.0-preview2-25401-01\build\Microsoft.Packaging.Tools.targets" Condition="Exists('$(NuGetPackageRoot)microsoft.packaging.tools\1.0.0-preview2-25401-01\build\Microsoft.Packaging.Tools.targets')" />
+    <Import Project="$(NuGetPackageRoot)netstandard.library\2.0.0-preview2-25401-01\build\netstandard2.0\NETStandard.Library.targets" Condition="Exists('$(NuGetPackageRoot)netstandard.library\2.0.0-preview2-25401-01\build\netstandard2.0\NETStandard.Library.targets')" />
+    <Import Project="$(NuGetPackageRoot)netstandard.library.netframework\2.0.0-preview2-25405-01\build\net461\NETStandard.Library.NETFramework.targets" Condition="Exists('$(NuGetPackageRoot)netstandard.library.netframework\2.0.0-preview2-25405-01\build\net461\NETStandard.Library.NETFramework.targets')" />
+    <Import Project="$(NuGetPackageRoot)microsoft.netframework.referenceassemblies.net471\1.0.2\build\Microsoft.NETFramework.ReferenceAssemblies.net471.targets" Condition="Exists('$(NuGetPackageRoot)microsoft.netframework.referenceassemblies.net471\1.0.2\build\Microsoft.NETFramework.ReferenceAssemblies.net471.targets')" />
+    <Import Project="$(NuGetPackageRoot)microsoft.netframework.referenceassemblies.net461\1.0.2\build\Microsoft.NETFramework.ReferenceAssemblies.net461.targets" Condition="Exists('$(NuGetPackageRoot)microsoft.netframework.referenceassemblies.net461\1.0.2\build\Microsoft.NETFramework.ReferenceAssemblies.net461.targets')" />
+  </ImportGroup>
+</Project>

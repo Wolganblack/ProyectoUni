@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.1525
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SistemaLibreria", "DXApplication4\SistemaLibreria.csproj", "{DAB1BC04-318F-40E7-BB6E-E6EB98FA5409}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ModeloDatos", "ConsoleApp1\ModeloDatos.csproj", "{3F8A65BE-0B55-4AEC-93FB-F84F0FD08211}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{74B332BB-C871-4722-BC30-F381699C5B13}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DAB1BC04-318F-40E7-BB6E-E6EB98FA5409}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DAB1BC04-318F-40E7-BB6E-E6EB98FA5409}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DAB1BC04-318F-40E7-BB6E-E6EB98FA5409}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DAB1BC04-318F-40E7-BB6E-E6EB98FA5409}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3F8A65BE-0B55-4AEC-93FB-F84F0FD08211}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3F8A65BE-0B55-4AEC-93FB-F84F0FD08211}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3F8A65BE-0B55-4AEC-93FB-F84F0FD08211}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3F8A65BE-0B55-4AEC-93FB-F84F0FD08211}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {77A5DA3D-0F18-4653-A553-1061AF66C28F}
+	EndGlobalSection
+EndGlobal
